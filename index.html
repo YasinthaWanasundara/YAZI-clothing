@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAZI Clothing | High Quality Ready-Made Garments</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <img src="images/profile_pic.jpg" alt="YAZI Clothing Logo">
+        <span>YAZI Clothing</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="navbar-actions">
+         <button class="cart-icon-btn" id="cartIconBtn" aria-label="Open cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <a href="https://wa.me/94715461448" class="btn-whatsapp" target="_blank">
+          Order on WhatsApp
+        </a>
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <span class="hero-badge">✨ High Quality Ready-Made Garments</span>
+        <h1>Style That Speaks <span>For You</span></h1>
+        <p>
+          Accepting orders and dispatching them in order. Bank deposit accepted,
+          7/8 day delivery island-wide.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/94715461448" class="btn-primary" target="_blank">Order Now</a>
+          <a href="#products" class="btn-secondary">View Products</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>54K+</strong>
+            <span>Facebook Followers</span>
+          </div>
+          <div>
+            <strong>92%</strong>
+            <span>Recommend</span>
+          </div>
+          <div>
+            <strong>21K+</strong>
+            <span>TikTok Fans</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/pic 01.jpg" alt="MSM Clothing model">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>Why Shop With <span>YAZI Clothing</span></h2>
+      <p class="about-subtitle">High quality ready-made garments, trusted by thousands of customers islandwide.</p>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">✅</div>
+          <h3>High Quality Garments</h3>
+          <p>Every piece is ready-made and quality checked before it reaches you.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🏦</div>
+          <h3>Bank Deposit Accepted</h3>
+          <p>Pay safely through bank deposit — confirmed and trusted payment method.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🚚</div>
+          <h3>7/8 Day Delivery</h3>
+          <p>Your order is dispatched and delivered islandwide within 7 to 8 days.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">📦</div>
+          <h3>Order In Sequence</h3>
+          <p>We accept and dispatch every order in the exact order it was placed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section class="products" id="products">
+    <div class="products-container">
+      <h2>Our <span>Products</span></h2>
+      <p class="products-subtitle">Fresh styles, ready to ship. DM or WhatsApp to order.</p>
+ 
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="dresses">Dresses</button>
+        <button class="filter-btn" data-filter="tops">Tops</button>
+        <button class="filter-btn" data-filter="sets">Sets</button>
+      </div>
+ 
+      <div class="products-grid" id="productsGrid">
+        <div class="product-card" data-category="dresses">
+          <img src="images/photo02.jpg" alt="Floral dress">
+          <div class="product-info">
+            <h3>Floral Summer Dress</h3>
+            <p>Rs. 2,490</p>
+            <button class="btn-add-cart" data-id="p1" data-name="Floral Summer Dress" data-price="2490">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-category="tops">
+          <img src="images/photo07.jpg" alt="Casual top">
+          <div class="product-info">
+            <h3>Casual Cotton Top</h3>
+            <p>Rs. 2,890</p>
+            <button class="btn-add-cart" data-id="p2" data-name="Casual Cotton Top" data-price="2890">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-category="sets">
+          <img src="images/photo03.jpg" alt="Two piece set">
+          <div class="product-info">
+            <h3>Two Piece Set</h3>
+            <p>Rs. 3,190</p>
+            <button class="btn-add-cart" data-id="p3" data-name="Two Piece Set" data-price="3190">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-category="dresses">
+          <img src="images/photo05.jpg" alt="Evening dress">
+          <div class="product-info">
+            <h3>Evening Wear Dress</h3>
+            <p>Rs. 2,990</p>
+            <button class="btn-add-cart" data-id="p4" data-name="Evening Wear Dress" data-price="2990">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-category="tops">
+          <img src="images/photo10.jpg" alt="Blouse">
+          <div class="product-info">
+            <h3>Classic Blouse</h3>
+            <p>Rs. 2,590</p>
+            <button class="btn-add-cart" data-id="p5" data-name="Classic Blouse" data-price="2590">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-category="dresses">
+          <img src="images/photo08.jpg" alt="Co-ord set">
+          <div class="product-info">
+            <h3>Long White Frock</h3>
+            <p>Rs. 2,890</p>
+            <button class="btn-add-cart" data-id="p6" data-name="Long White Frock" data-price="2890">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS SECTION -->
+  <section class="reviews" id="reviews">
+    <div class="reviews-container">
+      <h2>What Our <span>Customers Say</span></h2>
+ 
+      <div class="reviews-score">
+        <div class="score-circle">92%</div>
+        <p>of customers recommend YAZI Clothing<br><span>based on 9 reviews</span></p>
+      </div>
+ 
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Quality eka hodama hodai. Order kale haparahatama deliver kala. Sthuthiyi YAZI!"</p>
+          <h4>— Nimasha P.</h4>
+        </div>
+ 
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Fast delivery, nice fabric. Will order again for sure. Highly recommended seller."</p>
+          <h4>— Dilani K.</h4>
+        </div>
+ 
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p>"Good service, bank deposit eka pahasui. Dress eka photo eke vage ma awa."</p>
+          <h4>— Tharushi M.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / ORDER SECTION -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Ready To <span>Order?</span></h2>
+        <p>Fill in your details below and we'll get your order confirmed over WhatsApp in minutes.</p>
+ 
+        <div class="contact-detail">
+          <div class="contact-icon">📱</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>071 546 1448</p>
+          </div>
+        </div>
+ 
+        <div class="contact-detail">
+          <div class="contact-icon">🏦</div>
+          <div>
+            <h4>Payment</h4>
+            <p>Bank Deposit Accepted</p>
+          </div>
+        </div>
+ 
+        <div class="contact-detail">
+          <div class="contact-icon">🚚</div>
+          <div>
+            <h4>Delivery</h4>
+            <p>7 to 8 Days, Islandwide</p>
+          </div>
+        </div>
+      </div>
+ 
+      <form class="order-form" id="orderForm">
+        <h3>Place Your Order</h3>
+ 
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+ 
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="07X XXX XXXX" required>
+ 
+        <label for="item">Item You Want</label>
+        <input type="text" id="item" placeholder="e.g. Floral Summer Dress" required>
+ 
+        <label for="message">Message (optional)</label>
+        <textarea id="message" rows="3" placeholder="Size, color, quantity..."></textarea>
+ 
+        <button type="submit" class="btn-primary full-width">Send Order via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="images/profile_pic.jpg" alt="YAZI Clothing Logo">
+          <span>YAZI Clothing</span>
+        </div>
+        <p>High quality ready-made garments. Accepting orders and dispatching them in order, islandwide.</p>
+      </div>
+ 
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+ 
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61562237032993" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@yaziclothing" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/94715461448" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="footer-contact"><i class="fa-solid fa-phone"></i> 071 546 1448</p>
+      </div>
+    </div>
+ 
+    <div class="footer-bottom">
+      <p>&copy; 2026 YAZI Clothing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- CART SIDEBAR -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="cart-close" id="cartClose" aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+ 
+    <div class="cart-items" id="cartItems">
+      <p class="cart-empty" id="cartEmpty">Your cart is empty.</p>
+    </div>
+ 
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cartTotal">Rs. 0</span>
+      </div>
+      <button class="btn-primary full-width" id="checkoutBtn">Checkout via WhatsApp</button>
+    </div>
+  </aside>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
